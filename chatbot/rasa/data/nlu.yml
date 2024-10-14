@@ -1,0 +1,22 @@
+version: "3.0"
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - hey there
+
+- intent: ask_marking_scheme
+  examples: |
+    - tell me about the marking scheme
+    - how are grades calculated
+    - how is the CGPA calculated
+
+- intent: ask_attendance
+  examples: |
+    - what is the attendance requirement
+    - how much attendance is needed
+    - tell me about the attendance rules

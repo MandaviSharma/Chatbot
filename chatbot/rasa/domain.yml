@@ -1,0 +1,18 @@
+version: "3.0"
+intents:
+  - greet
+  - ask_marking_scheme
+  - ask_attendance
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+
+  utter_ask_marking_scheme:
+    - text: "We have a CGPA system for evaluation of results."
+
+  utter_ask_attendance:
+    - text: "All students are required to maintain 75% attendance in all courses."
+
+  utter_default:
+    - text: "Sorry, I did not understand that."

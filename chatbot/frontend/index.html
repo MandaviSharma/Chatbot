@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banasthali Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <h1>Banasthali Chatbot</h1>
+            <p>Get quick answers to your queries</p>
+            <button onclick="openChat()">Click here</button>
+        </div>
+
+        <div class="chat-container" id="chat-container">
+            <div class="chat-header">
+                <h4>CampusBuddy</h4>
+                <span id="status">Online</span>
+                <button class="close-btn" onclick="closeChat()">X</button>
+            </div>
+            <div class="chat-messages" id="chat-messages"></div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Type your message here...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+version: "3.0"
+stories:
+  - story: greet the user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: user asks about marking scheme
+    steps:
+      - intent: ask_marking_scheme
+      - action: utter_ask_marking_scheme
+
+  - story: user asks about attendance
+    steps:
+      - intent: ask_attendance
+      - action: utter_ask_attendance
